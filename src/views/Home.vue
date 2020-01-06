@@ -1,21 +1,31 @@
 <template>
   <div class="home">
-    <div class="button" to="/html">HTML</div>
-    <div class="button" to="/css">CSS</div>
-    <div class="button" to="/js">JS</div>
+    <div class="button" @click="goPage('html')">HTML</div>
+    <div class="button" @click="goPage('css')">CSS</div>
+    <div class="button" @click="goPage('js')">JS</div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'home',
-}
+  export default {
+    name: 'home',
+    methods: {
+      // 跳转到对应模块
+      goPage(value){
+        this.$router.push({
+          path: `/${value}`,
+        });
+      }
+    },
+  }
 </script>
 <style lang='scss' scoped>
-@import '@/assets/scss/utils.scss';
-  .home{
+  @import '@/assets/scss/utils.scss';
+
+  .home {
     display: flex;
   }
+
   .button {
     background-color: #3D11EE;
     color: #fff;
