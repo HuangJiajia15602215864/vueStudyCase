@@ -11,7 +11,7 @@ const list = [{
     }
   },
   {
-    path: '/list/index',
+    path: '/list',
     name: 'index',
     component: index,
     meta: {

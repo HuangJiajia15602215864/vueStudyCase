@@ -3,6 +3,8 @@
     <div class="button" @click="goPage('html')">HTML</div>
     <div class="button" @click="goPage('css')">CSS</div>
     <div class="button" @click="goPage('js')">JS</div>
+    <div class="button" @click="goPage('list')">列表</div>
+    <div class="button" @click="goPage('luckyDraw')">抽奖</div>
   </div>
 </template>
 

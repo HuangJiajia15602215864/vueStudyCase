@@ -6,8 +6,11 @@ import css from './css'
 import js from './js'
 // Vue模块 ==================
 import vue from './vue'
-
+// 列表模块 ==================
+import list from './list'
+// 抽奖模块 ==================
+import luckyDraw from './luckyDraw'
 
 export {
-    html,css,js,vue
+    html,css,js,vue,list,luckyDraw
 }
