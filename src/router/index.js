@@ -7,7 +7,10 @@ import {
   js,
   vue,
   list,
-  luckyDraw
+  luckyDraw,
+  calendar,
+  flex,
+  chart
 } from '@/common/routes/index.ts'
 
 Vue.use(VueRouter)
@@ -27,7 +30,10 @@ const routes = [{
   ...js,
   ...vue,
   ...list,
-  ...luckyDraw
+  ...luckyDraw,
+  ...calendar,
+  ...flex,
+  ...chart
 ]
 
 const scrollBehavior=function(to, from, savedPosition) {
