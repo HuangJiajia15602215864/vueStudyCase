@@ -16,7 +16,9 @@ import calendar from './calendar'
 import flex from './flex'
 // 动态图表页面布局模块 ==================
 import chart from './chart'
+// 动态图表页面布局模块 ==================
+import keyboard from './keyboard'
 
 export {
-    html,css,js,vue,list,luckyDraw,calendar,flex,chart
+    html,css,js,vue,list,luckyDraw,calendar,flex,chart,keyboard
 }

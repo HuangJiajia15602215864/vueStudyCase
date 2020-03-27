@@ -10,7 +10,8 @@ import {
   luckyDraw,
   calendar,
   flex,
-  chart
+  chart,
+  keyboard
 } from '@/common/routes/index.ts'
 
 Vue.use(VueRouter)
@@ -33,7 +34,8 @@ const routes = [{
   ...luckyDraw,
   ...calendar,
   ...flex,
-  ...chart
+  ...chart,
+  ...keyboard
 ]
 
 const scrollBehavior=function(to, from, savedPosition) {
