@@ -18,7 +18,9 @@ import flex from './flex'
 import chart from './chart'
 // 动态图表页面布局模块 ==================
 import keyboard from './keyboard'
+// 分页组件页面布局模块 ==================
+import pagination from './pagination'
 
 export {
-    html,css,js,vue,list,luckyDraw,calendar,flex,chart,keyboard
+    html,css,js,vue,list,luckyDraw,calendar,flex,chart,keyboard,pagination
 }

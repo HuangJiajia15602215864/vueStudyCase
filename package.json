@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.4.4",
     "echarts": "^4.6.0",
+    "element-ui": "^2.13.2",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "vue": "^2.6.10",
@@ -28,6 +29,7 @@
     "@vue/cli-plugin-vuex": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "@vue/eslint-config-typescript": "^4.0.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.12.0",

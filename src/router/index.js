@@ -11,7 +11,8 @@ import {
   calendar,
   flex,
   chart,
-  keyboard
+  keyboard,
+  pagination
 } from '@/common/routes/index.ts'
 
 Vue.use(VueRouter)
@@ -35,7 +36,8 @@ const routes = [{
   ...calendar,
   ...flex,
   ...chart,
-  ...keyboard
+  ...keyboard,
+  ...pagination
 ]
 
 const scrollBehavior=function(to, from, savedPosition) {
